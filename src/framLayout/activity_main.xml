@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity" >
+
+    <ImageView
+        android:id="@+id/background"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:srcCompat="@drawable/ground"
+        android:src="@drawable/ground"
+        android:scaleType="centerCrop"
+
+        />
+
+    <TextView
+        android:id="@+id/TV1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:padding="10dp"
+        android:text="Grand Palace Bangkok"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        android:background="#4C374A"
+
+        />
+
+    <TextView
+        android:id="@+id/TV2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="21/Aug/2017"
+        android:textSize="18sp"
+        android:textColor="#FFFFFF"
+        android:padding="10dp"
+        android:background="#AA000000"
+        android:layout_gravity="right|bottom"
+
+
+        />
+
+</FrameLayout>
